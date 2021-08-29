@@ -1,0 +1,8 @@
+extends ../layouts/common
+block content 
+    .text-center.mt-5
+        form(style="max-width:300px;margin:auto")
+            h1.h3.m-3 Please sign in
+            input(type='email',placeholder='Email address...', id="emailAddress").form-control.mb-3
+            input(type='password',placeholder='Password',id="password").form-control
+            button.btn.btn-lg.btn-primary.btn-block.mt-3 Sign in
